@@ -1,7 +1,9 @@
-function MyResume() {
-    return (
-        <section id="my-resume" class="content2">
-            <img src="./android-resumepic.jpg" alt="android-reboot" class="float-left" />
+import React from 'react';
+
+export default function Resume() {
+  return (
+    <section idName="Resume" className="content2">
+            <img src="./android-resumepic.jpg" alt="android-reboot" className="float-left" />
             <h2>My Resume</h2>
     
             <ul>
@@ -11,7 +13,5 @@ function MyResume() {
 
         
         </section>
-    );
-  }
-  
-  export default MyResume;
+  );
+}

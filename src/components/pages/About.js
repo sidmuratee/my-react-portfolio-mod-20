@@ -1,4 +1,6 @@
-function AboutMe() {
+import React from 'react';
+
+export default function About() {
   return (
     <section id="about-me" class="content2">
       <img
@@ -16,5 +18,3 @@ function AboutMe() {
     </section>
   );
 }
-
-export default AboutMe;
