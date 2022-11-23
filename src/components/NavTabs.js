@@ -36,7 +36,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           Work
         </a>
       </li>
-      <li className="nav-item">
+      {/* <li className="nav-item">
         <a
           href="#Resume"
           onClick={() => handlePageChange('Resume')}
@@ -45,7 +45,7 @@ function NavTabs({ currentPage, handlePageChange }) {
         >
           My Resume
         </a>
-      </li>
+      </li> */}
       <li className="nav-item">
         <a
           href="#contact"
